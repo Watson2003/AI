@@ -84,7 +84,7 @@ def play_game():
         
         current_player = "O" if current_player == "X" else "X"
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     while True:
         play_game()
         play_again = input("Play again? (y/n): ").lower()
